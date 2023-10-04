@@ -1,4 +1,4 @@
-# PROMO E: PROYECTO MÓDULO 1
+# Digitalización empresarial
 
 ## Integrantes:
 - Andrea Cabrera Quintanilla
@@ -7,7 +7,7 @@
 - Verónica Marina Ruiz
 
 ## Descripción:
-Nuestro cliente está inmerso en un proceso activo de transformación digital, a raíz de esto, nos ha mandando una serie de diferentes ficheros que contienen información relacionada entre sí y desea obtener una base de datos que agregue toda la información en diferentes tablas.
+Nuestro cliente está inmerso en un proceso activo de transformación digital, a raíz de esto, nos ha mandando una serie de diferentes ficheros que contienen datos sin limpiar, cuya información está relacionada entre sí. La empresa desea obtener una base de datos que agregue toda la información de forma estructurada.
 
 De esta forma nos ha mandando tres ficheros:
 - Archivo en formato XML.
@@ -23,14 +23,13 @@ Para ello deberemos:
 5. Automatizar la lectura de los archivos procesados y actualización de los datos.
 
 ## Motivación:
-
-Realizar una serie de tablas finales que tengan la información parcialmente procesada y que se automatice todo el sistema de procesado de datos, ya que de forma periódica se recibirán otras remesas de datos similares actualizados.
+Estamos trabajando para una empresa en pleno proceso de transformación digital. Quieren hacer un estudio de los datos que tienen, para ello nos piden realizar una serie de tablas finales que tengan la información parcialmente procesada y que se automatice todo el sistema de procesado de datos, ya que de forma periódica se recibirán otras remesas de datos similares actualizados.
 
 ## Librerías utilizadas:
- 
-1. os para Python (nos permite acceder a funcionalidades del sistema operativo).
-2. re para Python (para operaciones con expresiones regulares).
-3. xml.etree.ElementTree as ET para XML (para trabajar con datos de ficheros xml).
+* import re
+* import os
+* import xml.etree.ElementTree as ET
+* import mysql.connector
 
 ## Estructura de las carpetas:
 
