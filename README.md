@@ -32,9 +32,4 @@ Estamos trabajando para una empresa en pleno proceso de transformación digital.
 * import mysql.connector
 
 ## Estructura de las carpetas:
-
-datos - SQLproyecto.sql - data_sql.sql - data_txt.txt - data_xml.xml
- 
-jupiter - SQL_creacion_BBDD.ipynb - read_xml_txt.ipynb - txt_limpio.ipynb - xml_limpio.ipynb
-
-presentacion_demo - Proyecto_modulo_1.pptx
+En este repositorio se encuentran tres carpetas: una llamada "datos", otra "jupyter" y otra "presentacion_demo", además de este README. Dentro de la carpeta "datos" se encuentran los archivos: "SQLproyecto.sql", "data_sql.sql", "data_txt.txt" y "data_xml.xml". Por otro lado, la carpeta de 'jupyter' está compuesta por todos los archivos jupyter donde se ha realizado la limpieza y la creación de base de datos. Por último, la carpeta "presentacion_demo" contiene el soporte visual para presentar el proyecto realizado.
